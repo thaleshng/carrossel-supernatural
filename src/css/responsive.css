@@ -18,6 +18,10 @@
 }
 
 @media (max-width: 425px) {
+    body {
+        padding-bottom: 40px;
+    }
+    
     main .infos-container {
         min-height: 70vh;
         gap: 50px;
