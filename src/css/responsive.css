@@ -1,0 +1,42 @@
+@media (max-width: 1280px) {
+    body {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    main .infos-container .infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .infos-container .infos .serie-description {
+        max-width: 400px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+    main .infos-container {
+        min-height: 70vh;
+        gap: 50px;
+    }
+
+    main .infos-container .infos .logo {
+        width: 300px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    main .infos-container .infos .serie-description {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 320px) {
+    main .infos-container .infos .serie-description {
+        font-size: 19px;
+    }
+}

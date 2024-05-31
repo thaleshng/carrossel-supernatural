@@ -1,0 +1,8 @@
+@keyframes changeImage {
+	from {
+		opacity: 0.85;
+	}
+	to {
+		opacity: 1;
+	}
+}
